@@ -1,0 +1,4 @@
+.woocommerce .product .price .mcmp_recalc_price_row, .woocommerce .product .price .mcmp_recalc_price_row .amount{
+    font-size: 0.9em !important;
+    font-style: italic;
+}

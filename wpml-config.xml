@@ -1,0 +1,25 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">product</custom-type>
+    <custom-type translate="1">product_variation</custom-type>
+  </custom-types>
+  <custom-fields>
+    <custom-field action="copy" label="Shop page price behavior">_mcmp_ppu_general_override</custom-field>
+    <custom-field action="copy" label="Single product page behavior">_mcmp_ppu_single_page_override</custom-field>
+    <custom-field action="translate" style="textarea" label="Recalculated price prefix text">_mcmp_ppu_recalc_text_prefix_override</custom-field>
+    <custom-field action="translate" label="Recalculated price suffix text">_mcmp_ppu_recalc_text_override</custom-field>
+    <custom-field action="translate">_mcmp_ppu_recalc_text_override_cust</custom-field>
+    <custom-field action="translate" label="General price suffix text">_mcmp_ppu_additional_text_override</custom-field>
+    <custom-field action="copy" label="Custom unit name">_mcmp_ppu_custom_unit_override</custom-field>
+    <custom-field action="copy" label="Custom number of units">_mcmp_ppu_cust_num_of_units_override</custom-field>
+    <custom-field action="translate" label="Different weight unit">_mcmp_ppu_ratio_unit_override</custom-field>
+    <custom-field action="copy" label="Recalculate per units - multiplication ratio">_mcmp_ppu_recalc_per_units_override</custom-field>
+    <custom-field action="copy" label="Show calculation for this variant">_mcmp_ppu_var_show_recalc</custom-field>
+  </custom-fields>
+  <admin-texts>
+	<key name="_mcmp_ppu_additional_text"/>
+	<key name="_mcmp_ppu_var_prefix_text"/>
+	<key name="_mcmp_ppu_recalc_text_prefix"/>
+	<key name="_mcmp_ppu_recalc_text_automatic_preposition"/>
+  </admin-texts>
+</wpml-config>

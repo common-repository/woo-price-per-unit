@@ -1,0 +1,493 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Price Per Unit - free version\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-21 16:05+0200\n"
+"PO-Revision-Date: 2024-05-21 16:08+0200\n"
+"Last-Translator: Martin Měchura\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=( n == 1 ) ? 0 : ( n >= 2 && n <= 4 ) ? 1 : 2;\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_x;_e;_ex;_n\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: !Snippets\n"
+"X-Poedit-SearchPathExcluded-1: .vscode\n"
+
+#: includes/database-upgrade.php:38
+msgid "WooCommerce Price per Unit - database needs an update. Please back up your database first!"
+msgstr "WooCommerce Price per Unit - database vyžaduje aktualizaci. Nejprve si vytvořte zálohu databáze !"
+
+#: includes/database-upgrade.php:39
+msgid "Upgrade database"
+msgstr "Aktualizovat databázi"
+
+#: includes/database-upgrade.php:42
+msgid "WooCommerce Price per Unit - database updated successfully."
+msgstr "WooCommerce Price per Unit - databáze úspěšně aktualizována."
+
+#: includes/general-settings.php:22
+msgid "No additional text"
+msgstr "Bez přídavného textu"
+
+#: includes/general-settings.php:23
+msgid "Automatic text - takes unit settings from product"
+msgstr "Automatický text - přebírá nastavení z produktu"
+
+#: includes/general-settings.php:34
+msgid "General price options"
+msgstr "Obecné nastavení ceny"
+
+#: includes/general-settings.php:35
+msgid "Settings which affects all products"
+msgstr "Nastavení, týkající se všech produktů"
+
+#: includes/general-settings.php:40
+msgid "General price additional text"
+msgstr "Přídavný text pro všechny ceny"
+
+#: includes/general-settings.php:41
+msgid "This text will be shown after every price text. You can modify it's appearance through CSS class mcmp-general-price-suffix."
+msgstr "Tento text bude zobrazen za každou cenou. Vzhled lze upravit přes CSS třídu mcmp-general-price-suffix."
+
+#: includes/general-settings.php:42
+msgid "Example \"Without Vat\""
+msgstr "Příklad \"bez DPH\""
+
+#: includes/general-settings.php:48
+msgid "Sale price - hide regular price"
+msgstr "Slevy - skrýt běžnou cenou"
+
+#: includes/general-settings.php:49
+msgid "When product is on sale it shows regular price and sale price. This will hide the regular price for all products."
+msgstr "Když je produkt ve slevě, cena je zobrazena jako běžná cena a zlevněná cena. Toto nastavení skryje běžnou cenu u všech zlevněných produktů."
+
+#: includes/general-settings.php:60
+msgid "Options for variable products"
+msgstr "Nastavení pro produkty s variantami"
+
+#: includes/general-settings.php:61
+msgid "These settings affect only variable products"
+msgstr "Tato nastavení ovlivní pouze produkty s variantami"
+
+#: includes/general-settings.php:66
+msgid "Variations - prefix for variable price"
+msgstr "Varianty - úvodní text pro proměnlivou cenu"
+
+#: includes/general-settings.php:67
+msgid "If the product is variable this text will be shown before the price. You can modify it's appearance through CSS class mcmp-variable-price-prefix."
+msgstr "Pokud má produkt varianty, tak bude tento text zobrazen před cenou. Vzhled lze upravit přes CSS třídu mcmp-variable-price-prefix."
+
+#: includes/general-settings.php:68
+msgid "Example \"From:\""
+msgstr "Příklad \"Již od:\""
+
+#: includes/general-settings.php:75
+msgid "Variations - Display only lower price"
+msgstr "Varianty - zobraz pouze nižší částku"
+
+#: includes/general-settings.php:76
+msgid "When displaying variation the price is displayed as \"$10-$25\". With this setting you will get just \"$10\""
+msgstr "Cena variant je zobrazována například takto \"10Kč-25Kč\". S tímto nastavením se zobrazí pouze \"10Kč\""
+
+#: includes/general-settings.php:83
+msgid "Variations - Show regular price"
+msgstr "Varianty - zobrazit běžnou cenu"
+
+#: includes/general-settings.php:84
+msgid "Mimics pre WooCommerce 3 variable product price display - Shows how much was the cost before sale"
+msgstr "Napodobuje chování zobrazení produktu s variantami před WooCommerce 3 - zobrazuje cenu před slevou"
+
+#: includes/general-settings.php:95
+msgid "Price recalculation"
+msgstr "Přepočet ceny"
+
+#: includes/general-settings.php:96
+msgid "General settings for price recalculation"
+msgstr "Obecná nastavení pro přepočet ceny"
+
+#: includes/general-settings.php:101
+msgid "New row different styling"
+msgstr "Odlišit styl ceny v novém řádku"
+
+#: includes/general-settings.php:102
+msgid "When displaying price as new row, the new row will be displayed in italics with slightly smaller font size. For more styling you can use CSS class mcmp_recalc_price_row."
+msgstr "Při zobrazování ceny v novém řádku bude tento řádek zobrazen kurzívou a mírně menší velikostí. Vzhled lze upravit přes CSS třídu mcmp_recalc_price_row."
+
+#: includes/general-settings.php:109 includes/product-settings.php:35
+msgid "Shop page price behavior"
+msgstr "Chování na stránce obchodu"
+
+#: includes/general-settings.php:110 includes/product-settings.php:36
+msgid "Behaviour of recalculated price on shop page"
+msgstr "Jak se bude chovat přepočítaná cena na stránce obchodu"
+
+#: includes/general-settings.php:116 includes/general-settings.php:131
+#: includes/general-settings.php:146
+msgid "Do not show recalculated price"
+msgstr "Nezobrazovat přepočtenou cenu"
+
+#: includes/general-settings.php:117 includes/general-settings.php:132
+msgid "Show recalculated price as new row"
+msgstr "Přidat nový řádek s přepočtem"
+
+#: includes/general-settings.php:118 includes/general-settings.php:133
+msgid "Replace price view with recalculated"
+msgstr "Přepsat cenu přepočítanou cenou"
+
+#: includes/general-settings.php:124 includes/product-settings.php:45
+msgid "Single product page behavior"
+msgstr "Chování na stránce produktu"
+
+#: includes/general-settings.php:125 includes/product-settings.php:46
+msgid "Behaviour of recalculated price on single product page"
+msgstr "Jak se bude chovat přepočítaná cena na stránce jednotlivého produktu"
+
+#: includes/general-settings.php:139
+msgid "Cart page behavior"
+msgstr "Chování na stránce košíku"
+
+#: includes/general-settings.php:140
+msgid "Behaviour of recalculated price on cart page. Always displayed as new row."
+msgstr "Jak se bude chovat přepočítaná cena na stránce košíku. Zobrazuje se vždy jako nový řádek."
+
+#: includes/general-settings.php:147
+msgid "Show recalculated price always"
+msgstr "Zobrazit vždy"
+
+#: includes/general-settings.php:148
+msgid "Show if displayed on Single product page"
+msgstr "Zobrazit, pokud se zobrazuje na stránce jednotlivého produktu"
+
+#: includes/general-settings.php:149
+msgid "Show if displayed on Shop page"
+msgstr "Zobrazit, pokud se zobrazuje na stránce obchodu"
+
+#: includes/general-settings.php:156
+msgid "Cart - Sale products - show regular price"
+msgstr "Košík - Zlevněné produkty - zobrazit běžnou cenou"
+
+#: includes/general-settings.php:157
+msgid "Show recalculated regular price in Cart. Up to version 2.0.7 it was displayed by default, but WooCommerce stopped displaying regular price, so do we."
+msgstr "Zobrazit běžnou cenu v Košíku. Do verze 2.0.7 se zobrazovala normálně, ale WooCommerce ji přestalo zobrazovat a tím my také."
+
+#: includes/general-settings.php:164
+msgid "Recalculated price additional text"
+msgstr "Přídavný text pro přepočtenou cenu"
+
+#: includes/general-settings.php:165
+msgid "Will be shown immediatelly after recalculated prices. Can be overriden in product editor. Will be shown ONLY when recalculation takes place. You can modify it's appearance through CSS class mcmp-recalc-price-suffix."
+msgstr "Zobrazí se za přepočtenou cenou. Lze nahradit v editoru produktu. Bude zobrazen POUZE pokud k přepočtu dojde. Vzhled lze upravit přes CSS třídu mcmp-recalc-price-suffix."
+
+#: includes/general-settings.php:175
+msgid "Prepostion for weight unit when using automatic text"
+msgstr "Předložka před váhovou jednotkou při použití automatického textu"
+
+#: includes/general-settings.php:176
+msgid "Automatic text will create text like this '$10/kg' with this option you can replace '/' sign with what you want."
+msgstr "Automatický text vytvoří např. takovýto text '$10/kg'. Tímto nastavením můžete změnit znak '/' na cokoliv potřebujete."
+
+#: includes/general-settings.php:176 includes/general-settings.php:178
+msgid "To add space replace it with \"%\" sign."
+msgstr "Mezery v textu nahraďte znakem \"%\"."
+
+#: includes/general-settings.php:178
+msgid "Example \"/\" or \"per%\"."
+msgstr "Příklad \"/\" nebo \"za%\"."
+
+#: includes/general-settings.php:183
+msgid "Predefined additional text values"
+msgstr "Předdefinované přídavné texty"
+
+#: includes/general-settings.php:184
+msgid "Set of additional texts from which you will be able to choose on product page. Multiple values can be separated with '|' sign."
+msgstr "Sada přídavných textů ze kterých budete moci vybírat na stránce produktu. Vícero hodnot se odděluje znakem '|'."
+
+#: includes/general-settings.php:190
+msgid "Separate text from price with space"
+msgstr "Oddělit text od ceny mezerou"
+
+#: includes/general-settings.php:191
+msgid "The additional text is normally separated from the recalculated price with unbreakable space. If you don't want it uncheck this option."
+msgstr "Přídavný text je normálně oddělen od přepočtené ceny nedělitelnou mezerou. Pokud toto nechcete odškrtněte toto nastavení."
+
+#: includes/general-settings.php:198
+msgid "Recalculated price prefix text"
+msgstr "Text před přepočtenou cenu"
+
+#: includes/general-settings.php:199
+msgid "Will be shown before the recalculated prices. Can be overriden in product editor. Will be shown ONLY when recalculation takes place. You can modify it's appearance through CSS class mcmp-recalc-price-prefix."
+msgstr "Zobrazí se před přepočtenou cenou. Lze nahradit v editoru produktu. Bude zobrazen POUZE pokud k přepočtu dojde. Vzhled lze upravit přes CSS třídu mcmp-recalc-price-prefix."
+
+#: includes/general-settings.php:201
+msgid "Example \"Price per kilogram:\""
+msgstr "Příklad \"Cena za kilogram:\""
+
+#: includes/general-settings.php:206
+msgid "Disable price rounding"
+msgstr "Vypnout zaokrouhlování cen"
+
+#: includes/general-settings.php:207
+msgid "Normally WooCommerce rounds displayed prices - if you want recalculated prices trimmed instead check this field."
+msgstr "Normálně WooCommerce zaokrouhluje zobrazované ceny - pokud chcete místo toho přepočtenou cenu ořezávat tak zaškrtněte toto políčko."
+
+#: includes/general-settings.php:218
+msgid "Maintenance"
+msgstr "Údržba"
+
+#: includes/general-settings.php:219
+msgid "These settings are related just to the plugin itself."
+msgstr "Tato nastavení se týkají pouze pluginu samotného."
+
+#: includes/general-settings.php:224
+msgid "Delete settings on uninstall"
+msgstr "Smazat všechna nastavení při odinstalaci"
+
+#: includes/general-settings.php:225
+msgid "With this setting you will delete all plugin settings on uninstallation."
+msgstr "Pomocí tohoto nastavení smažete všechna nastavení pluginu při odinstalaci."
+
+#: includes/product-settings.php:15
+msgid "Default - according to general settings"
+msgstr "Výchozí - podle obecného nastavení"
+
+#: includes/product-settings.php:16
+msgid "Do not recalculate"
+msgstr "Nepřepočítávat"
+
+#: includes/product-settings.php:22
+msgid "Warning: This product has no weight set. The price per unit will not be shown unless the weight is set on Shipping tab. Please check it."
+msgstr "Varování: Tento produkt nemá nastavenou váhu. Cena za jednotku nebude zobrazena, dokud nenastavíte váhu na záložce Doprava. Prosím o překontrolování."
+
+#: includes/product-settings.php:25
+msgid "Local overrides for price recalculation"
+msgstr "Lokální přenastavení přepočtu ceny"
+
+#: includes/product-settings.php:26
+msgid "These settings will affect only this product despite global settings."
+msgstr "Tato nastavení ovlivní pouze tento produkt - navzdory obecnému nastavení."
+
+#: includes/product-settings.php:27
+msgid "Global settings can be found at "
+msgstr "Obecná nastavení lze nalézt zde "
+
+#: includes/product-settings.php:29
+msgid "<i>WooCommerce -> Settings -> Products -> Price Per Unit</i>"
+msgstr "<i>WooCommerce -> Nastavení -> Produkty -> Price per unit</i>"
+
+#: includes/product-settings.php:54
+msgid "Settings for Price per unit plug-in"
+msgstr "Nastavení pro plug-in Price per Unit"
+
+#: includes/product-settings.php:56
+msgid "In PRO version you will find here more settings for individual products"
+msgstr "Ve verzi PRO zde naleznete více možností nastavení pro jednotlivé produkty"
+
+#: includes/product-settings.php:57
+msgid "You can buy the plug-in here "
+msgstr "Plug-in můžete zakoupit zde "
+
+#: includes/product-settings.php:59
+msgid "Price per Unit PRO"
+msgstr "Price Per Unit PRO"
+
+#: includes/product-settings.php:63
+msgid "PRO Version features:"
+msgstr "Funkce PRO verze:"
+
+#: includes/product-settings.php:65
+msgid "- New feature - Quick Editor settings: Easily adjust Price Per Unit (PPU) settings on the fly."
+msgstr "- Nová funkce - nastavení pro Rychlé úpravy: Snadná úprava nastavení Price per Unit (PPU) za chodu."
+
+#: includes/product-settings.php:66
+msgid "- New feature - Bulk Editor settings: Save time by editing PPU settings in bulk."
+msgstr "- Nová funkce - nastavení pro Hromadné úpravy: Ušetřete čas hromadnými úpravami nastavení PPU."
+
+#: includes/product-settings.php:67
+msgid "- Enhanced display options: Customize how prices appear on product pages."
+msgstr "- Rozšířené možnosti zobrazení: Přizpůsobte si zobrazení cen na stránkách produktu."
+
+#: includes/product-settings.php:68
+msgid "- Shop Page display options: More ways to showcase prices on your shop page."
+msgstr "- Možnosti zobrazení stránky obchodu: Více možnosti zobrazení cen na stránce obchodu."
+
+#: includes/product-settings.php:69
+msgid "- Custom text for recalculated prices: Tailor the recalculated price display text."
+msgstr "- Vlastní text pro přepočítané ceny: Přizpůsobte si text pro zobrazení přepočítaných cen."
+
+#: includes/product-settings.php:70
+msgid "- Flexible weight unit display: Show prices for different units (kg, g, lbs, oz) from your shop default unit. Example: shop in kg and some products in grams."
+msgstr "- Flexibilní zobrazení váhové jednotky: Zobrazí cenu pro jinou jednotku (kg, g, lbs, oz) než je výchozí jednotka obchodu. Příklad: obchod je v kg a některé produkty v gramech."
+
+#: includes/product-settings.php:71
+msgid "- Alternative Weight Entry: Differentiate between shipping weight and net weight for accurate pricing. Example: use shipping weight as gross and recalculate per net weight."
+msgstr "- Alternativní zadání hmotnosti: Rozlišujte mezi přepravní hmotností a čistou hmotností pro přepočet ceny. Příklad: Použijte přepravní hmotnost jako brutto a zatímco přepočet se provede na netto váze."
+
+#: includes/product-settings.php:72
+msgid "- Multiple unit Recalculation: Display prices per different quantities (e.g., price per 5kg)."
+msgstr "- Přepočet pro více jednotek: Zobrazení cen za jiné množství (např. cena za 5 kg)."
+
+#: includes/product-settings.php:73
+msgid "- Possibility to save prices in database for later use."
+msgstr "- Možnost uložení cen do databáze pro pozdější použití."
+
+#: includes/product-settings.php:74
+msgid "- WPML Compatible: Seamless integration with WPML for multilingual support."
+msgstr "- Kompatibilní s WPML: Bezproblémová integrace s WPML pro vícejazyčnou podporu."
+
+#: includes/product-settings.php:78
+msgid "Another Must-Have Plugin: Sell by Weight PRO"
+msgstr "Další užitečný plug-in k dispozici - Sell by Weight PRO"
+
+#: includes/product-settings.php:80
+msgid "Simplify product pricing with Sell by Weight PRO!"
+msgstr "Zjednodušte si tvorbu cen produktů s Sell by Weight PRO!"
+
+#: includes/product-settings.php:81
+msgid "Easily sell products at a constant price per kilogram with multiple weight options."
+msgstr "Prodávejte produkty snadněji při konstantní ceně za kilogram s vícero váhovými položkami."
+
+#: includes/product-settings.php:82
+msgid "Enter the unit price once and let the plugin calculate options prices based on their weight."
+msgstr "Zadejte jednotkovou cenu a nechte plugin vypočítat ceny jednotlivých možností na základě jejich hmotnosti."
+
+#: includes/product-settings.php:83
+msgid "It works similarly as Variable products, but it is easier to manage."
+msgstr "Funguje podobně jako variabilní produkty, ale je jednodušší na správu."
+
+#: includes/product-settings.php:84
+msgid "The plugin is compatible with all WooCommerce weight units and works with the one you've chosen."
+msgstr "Plugin je kompatibilní se všemi váhovými jednotkami WooCommerce a pracuje s tou, kterou jste je vybraná."
+
+#: includes/product-settings.php:85 includes/product-settings.php:97
+msgid "More information can be found here "
+msgstr "Více informací najdete zde "
+
+#: includes/product-settings.php:87
+msgid "Sell by Weight PRO"
+msgstr "Sell by Weight PRO"
+
+#: includes/product-settings.php:91
+msgid "New plug-in available - Unit Based Stock PRO"
+msgstr "Nový plug-in k dispozici - Unit Based Stock PRO"
+
+#: includes/product-settings.php:93
+msgid "Manage your stock in Weight units!"
+msgstr "Spravujte skladové zásoby v jednotkách hmotnosti!"
+
+#: includes/product-settings.php:94
+msgid "Handle inventory in weight units - a capability unprecedented in WooCommerce, which traditionally manages stock solely based on purchased quantity."
+msgstr "Udržujte skladové zásoby v hmotnostních jednotkách - schopnost, která je ve WooCommerce nevídaná. WooCommerce tradičně udržuje skladové zásoby pouze na základě nakoupeného množství."
+
+#: includes/product-settings.php:95
+msgid "Override the product weight with custom stock value. This value will be used for inventory deduction."
+msgstr "Možnost náhrady hmotnosti produktu vlastní skladovou hodnotou. Tato hodnota bude použita pro odpočet zásob."
+
+#: includes/product-settings.php:96
+msgid "Supports decimal values for stock inventory as well."
+msgstr "Podporuje desetinné hodnoty pro skladové zásoby."
+
+#: includes/product-settings.php:99
+msgid "Unit Based Stock PRO"
+msgstr "Unit Based Stock PRO"
+
+#: woo-price-per-unit.php:274
+msgid "Price per unit plugin - PRO version is active. Please deactivate it first."
+msgstr "Price per unit plugin - je aktivní PRO verze. Nejprve ji deaktivujte."
+
+#: woo-price-per-unit.php:320
+msgid "Plugin NOT activated: "
+msgstr "Plugin NEBYL aktivován: "
+
+#: woo-price-per-unit.php:386
+msgid "Settings"
+msgstr "Nastavení"
+
+#: woo-price-per-unit.php:400
+msgid "Price Per Unit"
+msgstr "Price Per Unit"
+
+#: woo-price-per-unit.php:436
+msgid "Price Per Unit - free version"
+msgstr "Price Per Unit - verze zdarma"
+
+#: woo-price-per-unit.php:609
+msgctxt "weight unit"
+msgid "kg"
+msgid_plural "kg"
+msgstr[0] "kg"
+msgstr[1] "kg"
+msgstr[2] "kg"
+
+#: woo-price-per-unit.php:612
+msgctxt "weight unit"
+msgid "g"
+msgid_plural "g"
+msgstr[0] "g"
+msgstr[1] "g"
+msgstr[2] "g"
+
+#: woo-price-per-unit.php:615
+msgctxt "weight unit"
+msgid "oz"
+msgid_plural "oz"
+msgstr[0] "unce"
+msgstr[1] "unce"
+msgstr[2] "uncí"
+
+#: woo-price-per-unit.php:618
+msgctxt "weight unit"
+msgid "lb"
+msgid_plural "lbs"
+msgstr[0] "libra"
+msgstr[1] "libry"
+msgstr[2] "liber"
+
+#: woo-price-per-unit.php:974
+#, php-format
+msgid "Price per Unit requires WooCommerce to be installed and active. You can download %s here."
+msgstr "Price per Unit vyžaduje aby byl nainstalován a aktivní plugin WooCommerce. %s lze stáhnout zde."
+
+#~ msgid "Important notice about new version"
+#~ msgstr "Důležité upozornění k nové verzi"
+
+#~ msgid "It is no loger possible to change behaviour on single product - please check your product settings to get more info."
+#~ msgstr "Již není možné měnit chování přepočtu na jednotlivých stránkách - podívejte se prosím na nastavení produktu pro další informace."
+
+#~ msgid "Features you will find here:"
+#~ msgstr "Možnosti, které zde naleznete:"
+
+#~ msgid "- Change of display for product page"
+#~ msgstr "- Změna zobrazení na stránce produktu"
+
+#~ msgid "- Change of display for shop page"
+#~ msgstr "- Změna zobrazení na stránce obchodu"
+
+#~ msgid "- Individual text for recalculated price"
+#~ msgstr "- Individuální text pro přepočtenou cenu"
+
+#~ msgid "- Option for displaying recalculation for different number of units. Example: You can display price per 5kg"
+#~ msgstr "- Možnost zobrazení přepočtu pro jiný počet jednotek. Příklad: Můžete zobrazit cenu za 5 kg"
+
+#~ msgid "This plug-in allows you to sell easily products, where you want to have several weight option to sell at the same price for kilogram."
+#~ msgstr "Tento plug-in Vám umožnuje jednoduše prodávat produkty, u kterých chete mít na výběr z několika váhových možností při stejné ceně za kilogram."
+
+#~ msgid "It works in a similar way as Variable products, but it is easier to manage because you will enter the price only once and the options price is calculated automatically."
+#~ msgstr "Pracuje podobně jako Produkt s variantami, ale je snadnější na údžbu, protože cenu za produkt zadáte jen jednou a ceny za jednotlivé váhové možnosti se vypočítají automaticky."
+
+#~ msgid "Note for old version users:"
+#~ msgstr "Poznámka pro uživaatele starší verze:"
+
+#~ msgid "All your settings from this page are still in database, if you upgrade to PRO version it will be available again."
+#~ msgstr "Všechna nastavení z této stránky jsou stále v databázi, pokud provedete upgrade na PRO verzi vše bude opět přístupné."
+
+#~ msgid "If you are not interested in buying PRO version and still want to use the old features, please downgrade to free version 1.9.3."
+#~ msgstr "Pokud nemáte zájem o koupi PRO verze, ale stále chcete používat nastavení z této stránky prosím proveďte downgrade na volnou verzi 1.9.3."
+
+#~ msgid "Download here."
+#~ msgstr "Ke stažení zde."

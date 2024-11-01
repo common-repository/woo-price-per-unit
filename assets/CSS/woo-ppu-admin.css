@@ -1,0 +1,74 @@
+#mcmp_ppu_options input:disabled{
+	background-color: #eee;
+}
+#mcmp_ppu_options .admin-warn-cust-units,
+#mcmp_ppu_options .admin-warn-no-weight{
+	color: red;
+}
+#mcmp_ppu_options .admin-warn-no-weight{
+	font-size: 1.3em;
+	text-align: center;
+}
+#mcmp_ppu_options .section-heading,
+.variation-custom-fields .section-heading{
+	font-size: 1.5em;
+}
+#mcmp_ppu_options .field-notes-heading{
+	font-weight: bold;
+}
+.forminp-mcmplicence .submit-wrapper{
+	padding-top: 1em;
+}
+#mcmp_ppu_options label{
+	padding-right: 5px;
+}
+#_mcmp_ppu_recalc_text_override_cust{
+	margin-left: 5px;
+}
+.mcmp-notice{
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin: 5px 0 15px;
+	padding: 1px 12px;
+}
+.mcmp-notice.notice-error {
+    border-left-color: #dc3232;
+}
+.mcmp-notice.notice-success{
+	border-left-color:#46b450
+}
+.mcmp-notice.notice-warning{
+	border-left-color:#ffb900
+}
+.mcmp-notice.notice-info{
+	border-left-color:#00a0d2
+}
+.mcmp-notice p{
+    margin: .5em 0;
+    padding: 2px;
+}
+.mcmp-notice.is-dismissible {
+    padding-right: 38px;
+    position: relative;
+}
+.mcmp-pro-advert{
+	font-size: medium;
+	font-style: italic;
+	display: block;
+	margin-top: 30px;
+}
+.mcmp-pro-advert.note{
+	font-size: small;
+}
+.mcmp-pro-advert .coupon{
+    font-style: normal;
+    font-weight: bold;
+    color: #2283d7;
+}
+#mcmp_notice-description{
+	font-style: italic;
+	font-weight: bold;
+    color: red;
+}

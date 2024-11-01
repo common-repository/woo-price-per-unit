@@ -1,0 +1,8 @@
+.mcmp-general-price-suffix,
+.mcmp-variable-price-prefix,
+.mcmp-recalc-price-prefix,
+.mcmp-recalc-price-suffix,
+.mcmp-recalc-price-suffix-preposition{
+	display: inline-block;
+	white-space: pre;
+}
